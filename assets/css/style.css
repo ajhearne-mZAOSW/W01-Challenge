@@ -4,10 +4,22 @@
     margin: 0;
 }
 
+/* Global */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 body {
     background-color: #d9dcd6;
 }
+/* End Global */
 
+/* Header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +52,9 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/* End Header */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Main Image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +64,7 @@ p {
     background-position: center;
 }
 
+/* Float */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +75,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Aside */
+/* Aside Content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -100,7 +102,9 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* End Aside Content */
 
+/* Aside Header */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,7 +119,9 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+/* End Aside Header */
 
+/* Aside Images */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -132,6 +138,16 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+/* End Aside Images */
+/* End Aside */
+
+/* Content */
+/* Content Blocks */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .search-engine-optimization {
@@ -160,19 +176,9 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* End Content Blocks */
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
+/* Content Headers */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,7 +193,24 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* End Content Headers */
 
+/* Content Images */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* End Content Images */
+/* End Content */
+
+/* Footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,3 +221,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* End Footer */
